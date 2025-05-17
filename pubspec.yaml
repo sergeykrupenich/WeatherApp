@@ -1,0 +1,42 @@
+name: weather_app
+description: "A simple weather which demonstrates presentation-layer patterns."
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.4
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.7
+  cupertino_icons: ^1.0.8
+  geolocator: ^14.0.0
+  geocoding: ^3.0.0
+  http: ^1.3.0
+  weather_icons: ^3.0.0
+  flutter_dotenv: ^5.2.1
+  get_it: ^8.0.3
+  flutter_redux: ^0.10.0
+  redux: ^5.0.0
+
+dev_dependencies:
+  flutter_gen_runner: ^5.10.0
+  build_runner: ^2.4.15
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  intl_utils: ^2.8.10
+  injectable: ^2.5.0
+  injectable_generator: ^2.7.0
+
+flutter:
+  assets:
+    - .env
+  uses-material-design: true
+  generate: true

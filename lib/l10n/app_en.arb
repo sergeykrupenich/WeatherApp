@@ -1,0 +1,62 @@
+{
+  "@@locale": "en",
+  "weatherTitle": "Weather App",
+  "welcomeTitle": "Welcome to Weather App",
+  "locationDisabled": "Location services are disabled.",
+  "locationPermissionsDenied": "Location permissions are denied",
+  "locationPermissionsDeniedForever": "Location permissions are permanently denied, we cannot request permissions.",
+  "weatherTemperature": "{temperature} °C",
+  "@weatherTemperature": {
+    "description": "The label showing the weather temperature in Celsius",
+    "placeholders": {
+      "temperature": {
+        "type": "int"
+      }
+    }
+  },
+  "feelsLike": "Feels like: {temperature}°C",
+  "@feelsLike": {
+    "description": "The label showing the weather temperature in Celsius which is felt like",
+    "placeholders": {
+      "temperature": {
+        "type": "int"
+      }
+    }
+  },
+  "wind": "Wind: {wind} m/s",
+  "@wind": {
+    "description": "The label showing the wind in m/s",
+    "placeholders": {
+      "wind": {
+        "type": "double"
+      }
+    }
+  },
+  "humidity": "Humidity: {humidity}%",
+  "@humidity": {
+    "description": "The label showing the humidity in %",
+    "placeholders": {
+      "humidity": {
+        "type": "int"
+      }
+    }
+  },
+  "sunrise": "Sunrise: {sunrise}",
+  "@sunrise": {
+    "description": "The label showing the sunrise",
+    "placeholders": {
+      "sunrise": {
+        "type": "String"
+      }
+    }
+  },
+  "sunset": "Sunset: {sunset}",
+  "@sunset": {
+    "description": "The label showing the sunset",
+    "placeholders": {
+      "sunset": {
+        "type": "String"
+      }
+    }
+  }
+}
